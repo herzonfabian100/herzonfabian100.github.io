@@ -1,0 +1,248 @@
+h2 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(58, 58, 58);
+    padding-top: 10px;
+    margin-bottom: 10p;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(58, 58, 58);
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    color: rgb(83, 83, 83);
+    margin-top: 6px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: 'Righteous', cursive;
+}
+
+form {
+    text-align: left;
+    display: block;
+    margin-top: 0em;
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navigation ul {
+    padding-left: 0px;
+}
+
+.sectionEffect {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer p {
+    padding: auto;
+    text-align: center;
+    background-color: rgb(160, 158, 158);
+}
+
+#skills1 li {
+    border: 2px solid rgb(29, 29, 29);
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.ExperinceListFlex,
+.ProjectsListFlex li {
+    background-color: lightgrey;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ProjectsListFlex li {
+    color: dimgray;
+}
+
+.ProjectsListFlex p {
+    color: dimgray;
+    font-size: 14px;
+}
+
+.emphasis {
+    font-style: italic;
+    color: rgb(165, 164, 164);
+}
+
+#messages li {
+    background-color: lightgrey;
+    border-radius: 2px;
+    display: block;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#messages button {
+    background-color: rgb(63, 62, 62);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.label {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.input {
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    display: block;
+    border: 2px;
+}
+
+.fielinfo {
+    width: 15em;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.buttonSubmit {
+    color: black;
+    background-color: grey;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    background: rgb(194, 193, 193);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.ConnectEffect {
+    list-style-type: none;
+    text-align: center;
+}
+
+.ConnectEffect li {
+    display: inline-block;
+    font-size: 50px;
+    padding: 0px;
+}
+
+header {
+    position: sticky;
+    z-index: 0;
+    top: 0;
+    margin: 0px;
+    background: rgb(216, 216, 216);
+    text-align: center;
+}
+
+header div {
+    align-self: center;
+    padding: auto;
+    text-align: center;
+}
+
+.responsiveImg {
+    width: 80%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classConnectwith {
+    align-self: center;
+    padding: auto;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+div .fielinfo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+
+@media screen and (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+/* Responsive form - fix the flexbox in small screens  */
+
+@media screen and (max-width: 797px) {
+    input,
+    .input,
+    textarea {
+        width: 83.5%;
+    }
+    .ConnectEffect ul {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+}
