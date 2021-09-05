@@ -19,13 +19,16 @@ h1 {
 }
 
 body {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(243, 243, 243);
     color: rgb(83, 83, 83);
+    font-family: 'Righteous', cursive;
+}
+
+body section {
     margin-top: 6px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-right: 80px;
     margin-left: 80px;
-    font-family: 'Righteous', cursive;
 }
 
 form {
@@ -199,7 +202,7 @@ header div {
     align-items: center;
 }
 
-.classConnectwith {
+.flex-container .classConnectwith {
     align-self: center;
     padding: auto;
     text-align: center;
