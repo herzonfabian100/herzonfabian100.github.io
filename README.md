@@ -1,13 +1,9 @@
 #Personal Portfolio Fabian Aparicio
 
-## Overview
+## About Me
+Born and raised in Bogota Colombia, passionate about knowledge, social equality and helping others.
 
-
-## Issues and Feedback
-
-Be encouraged to ask questions or point out issues in the assignment!
-
-Mentors will be happy to help out and your fellow students will benefit from your input.
+Over these last interesting years, full of challenges and new discoveries, as an entrepreneur and dedicated hard student, I've been passionate about everything related to the IT field and its different branches, which helps shape the world in connection to generate amazing benefits for the human being, creating innovative and also different tools that create and evolutionary aspects to improve our daily tasks. All these aspects contributed to my dedication to building different projects focused on the customer's needs so that they can connect with the world.
 
 [Report an Issue](https://github.com/Code-the-Dream-School/intro-to-programming/issues)
 
