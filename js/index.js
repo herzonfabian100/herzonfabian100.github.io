@@ -31,12 +31,7 @@ function createMessagesList(name, email, textarea) {
     const newMessage = document.createElement('li');
     const removeButton = document.createElement('button');
     const editButton = document.createElement('button');
-    // newMessage.innerHTML = `<div>
-    //     <span class="message strong">${textarea.value}</span>
-    //     <p>${today.toLocaleString()} from <a class="link" href="mailto:${
-    //     email.value
-    //   }">${name.value}</a> &nbsp;</p>
-    //   </div>`;
+
 
     newMessage.innerHTML = ` From: <a href="mailto:${email.value}">${name.value} </a> <br> <span class="message">  Message: ${textarea.value}</span> 
     <p>${today.toLocaleString()} </p>
