@@ -1,7 +1,8 @@
 const today = new Date();
 const ThisYear = today.getFullYear();
 const footer = document.querySelector("footer");
-const copyright = document.createElement("P"); // Create paragraph
+// Create paragraph
+const copyright = document.createElement("P");
 //Create Footer
 copyright.innerHTML = `&copy;Fabian Aparicio  ${ThisYear}`;
 footer.appendChild(copyright);
